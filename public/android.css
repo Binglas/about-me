@@ -1,0 +1,136 @@
+/****  GLOBAL  ****/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix{clear: both; display: block}
+.container{
+    width: 650px;
+    height: 650px;
+    margin: 90px auto;
+    text-align: center;
+}
+.container .android{
+    width: 50%;
+    height: 100%;
+    /*background: #eee;*/
+}
+
+
+
+/****  HEAD  ****/
+.android .android-head{
+    width: 400px;
+    height: 180px;
+    background: #97ca3d;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+.android:hover .android-head{
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+.android .android-head .ears{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top: -25%;
+    left: 25%;
+    z-index: -5;
+}
+.android .android-head .left-ear, .android .android-head .right-ear{
+    width: 14px;
+    height: 100px;
+    background: #97ca3d;
+    border-radius: 50px;
+}
+.android .android-head .left-ear{
+    float: left;
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.android .android-head .right-ear{
+    float: right;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.android .android-head .eyes{
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    overflow: hidden;
+}
+.android .android-head .eyes .eye-pointer{
+    width: 27px;
+    height: 27px;
+    margin: 10px 0px 0px 17px;
+    border-radius: 100px;
+    background: #333;
+    opacity: 0;
+    transition: .3s ease;
+}
+.android:hover .android-head .eyes .eye-pointer{
+    opacity: 1;
+}
+.android .android-head .left-eye, .android .android-head .right-eye{
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 100%;
+}
+.android .android-head .left-eye{float: left;}
+.android .android-head .right-eye{float: right;}
+
+
+
+/****  BODY  ****/
+.android .android-body{
+    width: 400px;
+    height: 350px;
+    background: #97ca3d;
+    margin-top: 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: relative;
+}
+.android .android-body .left-hand, .android .android-body .right-hand{
+    position: absolute;
+    width: 70px;
+    height: 250px;
+    border-radius: 100px;
+    background: #97ca3d;
+}
+.android .android-body .left-hand{
+    left: -95px;
+}
+.android .android-body .right-hand{
+    right: -95px;
+}
+.android .android-body .left-leg, .android .android-body .right-leg{
+    position: absolute;
+    width: 70px;
+    height: 250px;
+    border-radius: 100px;
+    background: #97ca3d;
+    bottom: -125px;
+}
+.android .android-body .left-leg{
+    left: 90px;
+}
+.android .android-body .right-leg{
+    right: 90px;
+}
