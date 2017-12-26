@@ -1,5 +1,7 @@
 const canvas = document.getElementById('tetris');
+const contentGame = document.getElementById('content');
 const context = canvas.getContext('2d');
+const tryMeBtn = document.getElementById('trymebutton');
 
 context.scale(20, 20);
 
@@ -225,6 +227,26 @@ document.addEventListener('keydown', event => {
     }
 });
 
+tryMeBtn.onclick = function() {
+    if (contentGame.style.display === "none") {
+        contentGame.style.display = "block";
+        window.addEventListener('scroll', noscroll);
+        playerReset();
+        updateScore();
+        update();
+    }
+}
+
+function noscroll() {
+    contentGame.scrollIntoView();
+}
+
+$("#trymebutton").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#content").offset().top
+    }, 2000);
+});
+
 const colors = [
     null,
     '#FF0D72',
@@ -243,7 +265,3 @@ const player = {
     matrix: null,
     score: 0,
 };
-
-playerReset();
-updateScore();
-update();
