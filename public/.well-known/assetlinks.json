@@ -1,0 +1,20 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.betfair.exchange",
+      "sha256_cert_fingerprints":
+      ["B9:C9:EF:F2:E3:BA:17:E7:39:30:52:30:C7:15:EC:E7:06:CC:10:BC:6C:D1:45:B3:4A:35:66:DD:01:D3:A3:92"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.betfair.sportsbook",
+      "sha256_cert_fingerprints":
+      ["B9:C9:EF:F2:E3:BA:17:E7:39:30:52:30:C7:15:EC:E7:06:CC:10:BC:6C:D1:45:B3:4A:35:66:DD:01:D3:A3:92"]
+    }
+  }
+]

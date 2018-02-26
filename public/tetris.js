@@ -2,6 +2,8 @@ const canvas = document.getElementById('tetris');
 const contentGame = document.getElementById('content');
 const context = canvas.getContext('2d');
 const tryMeBtn = document.getElementById('trymebutton');
+const tryMeBtn1 = document.getElementById('trybfsportsbutton');
+const tryMeBtn2 = document.getElementById('tryppbutton');
 
 context.scale(20, 20);
 
@@ -144,7 +146,7 @@ function rotate(matrix, dir) {
     }
 }
 
-function playerDrop() {
+function playerDrop(increment) {
     player.pos.y++;
     if (collide(arena, player)) {
         player.pos.y--;
@@ -172,8 +174,42 @@ function playerReset() {
     if (collide(arena, player)) {
         arena.forEach(row => row.fill(0));
         player.score = 0;
+        previousScore = 0;
         updateScore();
     }
+}
+
+tryMeBtn.onclick = function() {
+    window.open("https://www.joaozao.com/exchange/", "_self");
+    /*if (contentGame.style.display === "none") {
+        contentGame.style.display = "block";
+        window.addEventListener('scroll', noscroll);
+        playerReset();
+        updateScore();
+        update();
+    }*/
+}
+
+tryMeBtn1.onclick = function() {
+    window.open("bfsportsbetting://batatas", "_self");
+    /*if (contentGame.style.display === "none") {
+        contentGame.style.display = "block";
+        window.addEventListener('scroll', noscroll);
+        playerReset();
+        updateScore();
+        update();
+    }*/
+}
+
+tryMeBtn2.onclick = function() {
+    window.open("https://www.joaozao.com/pp/", "_self");
+    /*if (contentGame.style.display === "none") {
+        contentGame.style.display = "block";
+        window.addEventListener('scroll', noscroll);
+        playerReset();
+        updateScore();
+        update();
+    }*/
 }
 
 function playerRotate(dir) {
@@ -193,10 +229,17 @@ function playerRotate(dir) {
 
 let dropCounter = 0;
 let dropInterval = 1000;
+let previousScore = 0;
 
 let lastTime = 0;
 function update(time = 0) {
     const deltaTime = time - lastTime;
+
+    if (player.score <= 900 && player.score > previousScore) {
+        dropInterval = ((1 - (player.score/1000)) * 1000);
+        console.log(dropInterval);
+        previousScore = player.score;
+    }
 
     dropCounter += deltaTime;
     if (dropCounter > dropInterval) {
@@ -226,16 +269,6 @@ document.addEventListener('keydown', event => {
         playerRotate(1);
     }
 });
-
-tryMeBtn.onclick = function() {
-    if (contentGame.style.display === "none") {
-        contentGame.style.display = "block";
-        window.addEventListener('scroll', noscroll);
-        playerReset();
-        updateScore();
-        update();
-    }
-}
 
 function noscroll() {
     contentGame.scrollIntoView();

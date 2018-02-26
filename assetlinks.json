@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ezquizito.slidingselfie.dev",
+    "sha256_cert_fingerprints":
+    ["63:C7:86:0D:1F:52:55:78:3A:B3:3D:F2:40:73:65:FD:DA:DB:CD:2E:4E:C1:9B:8A:33:DA:3C:7D:90:6E:76:C3"]
+  }
+}]
