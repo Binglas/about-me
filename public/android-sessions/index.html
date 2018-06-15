@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="tetris.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>About me</h1>
+  <p>João Zão</p>
+  <p>Devoted Android developer</p>
+  <a id="trymebutton" class="waves-effect waves-light btn">Try me!</a>
+</div>
+
+<div id="content" style="display: none">
+  <div id="score"></div>
+  <canvas id="tetris" width="240px" height="400px"></canvas>
+  <script src="tetris.js"></script>
+</div>
+<!-- https://codeburst.io/the-only-way-to-detect-touch-with-javascript-7791a3346685 -->
