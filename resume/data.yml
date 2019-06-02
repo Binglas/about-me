@@ -1,32 +1,37 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: João
   middle:
-  last: Doe
+  last: Zão
 about: Hi, my name is John Doe. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Android Engineer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1989
+  location: Porto, Portugal
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Blip
+  position: Android Engineer
+  timeperiod: since 2016
+  description: Fulfillment of extremely important tasks.
+  website: https://blip.pt
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
+- company: TopDox
+  position: Android Engineer
+  timeperiod: 2015 - 2016
   description: Fulfillment of extremely important tasks.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
+- company: CimSoft
+  position: Mobile Engineer/IoT
+  timeperiod: 2014 - 2015
+  description: Making coffee and baking cookies.
+
+- company: Ezquizito
+  position: Founder/Hobby/Developer
+  timeperiod: 2014 - 2015
   description: Making coffee and baking cookies.
 
 education:
