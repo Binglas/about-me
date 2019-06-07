@@ -3,9 +3,9 @@ name:
   first: João
   middle:
   last: Zão
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+about: I am a devoted Android Engineer, an Electrical and Computer Engineer with great enthusiasm in computer science.
+        Simply love structure and order, therefore I also stand for quality - quick learner and really love to share knowledge so, 
+        working in a team is always a joy for me. Eager to learn, I'm regularly reading, listening or trying to help others for the greater good.
 position: Android Engineer
 
 birth:
@@ -14,7 +14,7 @@ birth:
 
 experience:
 - company: Blip
-  position: Android Engineer
+  position: Android Engineer - Team Leader
   timeperiod: since 2016
   description: Fulfillment of extremely important tasks.
   website: https://blip.pt
