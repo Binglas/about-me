@@ -6,92 +6,107 @@ name:
 about: I am a devoted Android Engineer, an Electrical and Computer Engineer with great enthusiasm in computer science.
         Simply love structure and order, therefore I also stand for quality - quick learner and really love to share knowledge so, 
         working in a team is always a joy for me. Eager to learn, I'm regularly reading, listening or trying to help others for the greater good.
+        Addicted to best practices, always aiming to deliver rock SOLID, clean and readable code or any other task where it applies like documentation.
 position: Android Engineer
 
 birth:
   year: 1989
-  location: Porto, Portugal
+  location: Esposende, Portugal
 
 experience:
 - company: Blip
   position: Android Engineer - Team Leader
-  timeperiod: since 2016
-  description: Fulfillment of extremely important tasks.
+  timeperiod: 2016 - Currently
+  description: Blip is a pure techonological hub reponsible to build all of the major applications for Paddy Power Betfair,
+               one of the biggest betting companies in the world. I'm currently the Android tech lead and 
+               I'm responsible for the three major Android apps(PaddyPower Sports, Betfair Sports and Betfair Exchange). 
+               I'm also the major contributer and the gate keeper of most of the shared libraries we have within other 
+               Android applications that are being built in UK and Romania technological hubs of the group. 
+               I've been also internaly advocating the use of Kotlin native to share business logic between other platforms we target. 
+               The projects I'm dealing with at blip allowed me to polish my skills in the following areas - 
+               Android, Java, Kotlin, Gradle, MVP, MVVM, Jetpack..
+
   website: https://blip.pt
 
-- company: TopDox
+- company: TOPDOX
   position: Android Engineer
   timeperiod: 2015 - 2016
-  description: Fulfillment of extremely important tasks.
+  description: A multi-cloud platform and file manager that allowed to seamlessly deal with all the files(local and cloud) 
+                with a built-in docx and gdoc collaborative editor made in-house.
+                I was responsible to build the Android app, unfortunately the startup no longer exists which means that the app 
+                can't be found in the play store anymore. Some of our tech stack was bought by Dropbox.
+                During the development of this app I faced a lot of challenges related with building a file manager targeting a wide range
+                of Android versions and some devices from weird manufactors with broken journeys.
+                Also spent a lot of time improving things related with syncing clouds with endless files and folders, as well as thinking 
+                about caching mechanisms.
+
 
 - company: CimSoft
   position: Mobile Engineer/IoT
   timeperiod: 2014 - 2015
-  description: Making coffee and baking cookies.
-
-- company: Ezquizito
-  position: Founder/Hobby/Developer
-  timeperiod: 2014 - 2015
-  description: Making coffee and baking cookies.
+  description: Responsible to design a home automation system(ZigBee protocol) and to build an Android app to control home devices such as car garage, doors, lamps...
+                Google maps integration and used Android location API for several configurable behaviours like for example it was possible to define to turn off the lights and warn that the car
+                 garage is open if the user is 100 meters away from the house. 
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: MSc in Electrical and Computers Engineering @ FEUP
+  timeperiod: 2008 - 2013
+  description: Major in Robotics, specialization in IoT and mobile communications.
+  website: https://sigarra.up.pt/feup/en/cur_geral.cur_view?pv_ano_lectivo=2018&pv_origem=CUR&pv_tipo_cur_sigla=MI&pv_curso_id=741
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: Good person
+  #level: 99
+- name: Android
+  #level: 99
+- name: Java
+  #level: 95
+- name: Kotlin
+  #level: 97
+- name: Gradle
+  #level: 93
+- name: DI
+  #level: 60
+- name: MVP
+  #level: 60
+- name: MVVM
+  #level: 60
+- name: Jetpack 🚀
+  #level: 60
+- name: iOS/Swift
+  #level: 60
+- name: Flutter/Dart
+  #level: 60
+- name: Shell script
+  #level: 60
+- name: Git
+  #level: 60
+knowledge: I've been playing with Android since 2010 but "only" in 2014 I've started to deep dive into it.
+          In 2017 I fell in love with Kotlin, started to advocate it inside the company by giving some inductions and internal talks.
+          In the last year I've been also using it to share business logic across multiple platforms.
+          I'm curious by nature so I've been keeping an eye into flutter aswell, I feel I'm becoming proficient at it without much investment 
+          which seems to be the point of flutter after all (mostly using it for internal company apps).
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Kotlin for Java Developers
+  description: I already had some experience with kotlin when this course was announced at KotlinKonf 2018
+                but I took it anyway. It's a great course from Jetbrains that helped me consolidate my knowledge.
+  url: https://www.coursera.org/account/accomplishments/verify/WXJXMX9W94H4
+- name: Green Robot enthusiast
+  description: I already had the chance to go to several Droidcons (London, Turin, Krakow, Lisbon...)
+                I'm an active participant in the GDG Porto local community events
+                and even helped organizing one of the Android Sessions at Blip(my current company).
+                Had the Pleasure to share some stuff with the community by giving a talk in one of the Android Sessions.
+  url: https://twitter.com/gdgporto/status/989806969891508224
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: jmmbzao@gmail.com
+  phone: 00351 919238221
+  street: Esposende, Portugal
+  city: Esposende
+  website: joaozao.com
+  github: joaobzao
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

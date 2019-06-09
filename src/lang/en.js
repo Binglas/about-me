@@ -7,7 +7,7 @@ const lang = {
     education: 'Education',
     skills: 'Skills',
     projects: 'Projects',
-    contributions: 'Contributions',
+    contributions: 'Extras',
     about: 'About me'
 };
 export default lang;
