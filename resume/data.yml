@@ -5,7 +5,7 @@ name:
   last: Zão
 about: I am a devoted Android Engineer, an Electrical and Computer Engineer with great enthusiasm in computer science.
         Simply love structure and order, therefore I also stand for quality - quick learner and really love to share knowledge so, 
-        working in a team is always a joy for me. Eager to learn, I'm regularly reading, listening or trying to help others for the greater good.
+        working in a team is always a joy for me. Eager to learn, I'm regularly reading, listening or trying to help others.
         Addicted to best practices, always aiming to deliver rock SOLID, clean and readable code or any other task where it applies like documentation.
 position: Android Engineer
 
@@ -15,16 +15,16 @@ birth:
 
 experience:
 - company: Blip
-  position: Android Engineer - Team Leader
+  position: Android Engineer
   timeperiod: 2016 - Currently
-  description: Blip is a pure techonological hub reponsible to build all of the major applications for Paddy Power Betfair,
-               one of the biggest betting companies in the world. I'm currently the Android tech lead and 
-               I'm responsible for the three major Android apps(PaddyPower Sports, Betfair Sports and Betfair Exchange). 
-               I'm also the major contributer and the gate keeper of most of the shared libraries we have within other 
-               Android applications that are being built in UK and Romania technological hubs of the group. 
-               I've been also internaly advocating the use of Kotlin native to share business logic between other platforms we target. 
+  description: Blip is a pure technological hub responsible to build all of the major applications for Paddy Power Betfair,
+               one of the biggest betting companies in the world.
+               I've been developing a lot of Android applications and libraries for the entire group always with high code standards
+               with scalability and readability in mind.
+               Lately, brought kotlin multiplatform to the table and since then I've been building one of the core layers of our applications 
+               in a way that it could be shared among other platforms as well.
                The projects I'm dealing with at blip allowed me to polish my skills in the following areas - 
-               Android, Java, Kotlin, Gradle, MVP, MVVM, Jetpack..
+               Android, Java, Kotlin, Gradle, MVP, MVVM, Jetpack, DI..
 
   website: https://blip.pt
 
@@ -33,20 +33,22 @@ experience:
   timeperiod: 2015 - 2016
   description: A multi-cloud platform and file manager that allowed to seamlessly deal with all the files(local and cloud) 
                 with a built-in docx and gdoc collaborative editor made in-house.
-                I was responsible to build the Android app, unfortunately the startup no longer exists which means that the app 
-                can't be found in the play store anymore. Some of our tech stack was bought by Dropbox.
-                During the development of this app I faced a lot of challenges related with building a file manager targeting a wide range
-                of Android versions and some devices from weird manufactors with broken journeys.
-                Also spent a lot of time improving things related with syncing clouds with endless files and folders, as well as thinking 
+                I was responsible to build the Android app, unfortunately the startup no longer exists, which means that the app 
+                can't be found in the play store anymore. Part of our tech stack was bought by Dropbox.
+                During the development of this app I faced a lot of challenges related to build a file manager targeting a wide range
+                of Android versions and some devices from weird manufacturers with unexpected behaviours.
+                Also spent a lot of time thinking and designing effecient ways to sync clouds with endless files and folders, as well as thinking 
                 about caching mechanisms.
+                Tech - Android, Java, MVP, Dagger 2, SQLite, JUnit 4, Espresso...
 
 
 - company: CimSoft
   position: Mobile Engineer/IoT
   timeperiod: 2014 - 2015
   description: Responsible to design a home automation system(ZigBee protocol) and to build an Android app to control home devices such as car garage, doors, lamps...
-                Google maps integration and used Android location API for several configurable behaviours like for example it was possible to define to turn off the lights and warn that the car
-                 garage is open if the user is 100 meters away from the house. 
+               Google maps integration and used Android location API for several configurable behaviours.
+               Also built an application for lawyers so they could manage all the files of their lawsuits in an easy manner.
+               Tech - Android, Java, MVP, SQLite.. C++ and C# in the hardware parts.
 
 education:
 - degree: MSc in Electrical and Computers Engineering @ FEUP
@@ -82,21 +84,20 @@ skills:
   #level: 60
 - name: Git
   #level: 60
-knowledge: I've been playing with Android since 2010 but "only" in 2014 I've started to deep dive into it.
-          In 2017 I fell in love with Kotlin, started to advocate it inside the company by giving some inductions and internal talks.
+knowledge: I've been playing with Android since 2010 but "only" in 2014 I've started to deep dive into it professionally.
+          In 2017 I fell in love with Kotlin, started to advocate it inside the company and in the GDGPorto local community by giving some talks.
           In the last year I've been also using it to share business logic across multiple platforms.
-          I'm curious by nature so I've been keeping an eye into flutter aswell, I feel I'm becoming proficient at it without much investment 
-          which seems to be the point of flutter after all (mostly using it for internal company apps).
+          I'm curious by nature, so I've been keeping an eye into flutter as well and already used it in some company internal applications.
 
 contributions:
 - name: Kotlin for Java Developers
-  description: I already had some experience with kotlin when this course was announced at KotlinKonf 2018
-                but I took it anyway. It's a great course from Jetbrains that helped me consolidate my knowledge.
+  description: Although I had some experience with kotlin when this course was announced at KotlinKonf 2018
+                I took it anyway. It's a great course from Jetbrains that helped me consolidate my knowledge.
   url: https://www.coursera.org/account/accomplishments/verify/WXJXMX9W94H4
 - name: Green Robot enthusiast
   description: I already had the chance to go to several Droidcons (London, Turin, Krakow, Lisbon...)
                 I'm an active participant in the GDG Porto local community events
-                and even helped organizing one of the Android Sessions at Blip(my current company).
+                and even helped organize one of the Android Sessions at Blip.
                 Had the Pleasure to share some stuff with the community by giving a talk in one of the Android Sessions.
   url: https://twitter.com/gdgporto/status/989806969891508224
 
